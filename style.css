@@ -1,122 +1,156 @@
+:root {
+  --light-tifany: #B2DFDB;
+  --light-orange-10:#ffcd7b;
+  --light-orange:#ffaa20;
+  --orange:#ff9e00;
+  --light-blue:#2e80e9;
+  --blue : #0f6ce3;
+  --light-gray-10: #f9f9f9;
+  --light-gray: #d2d2d2;
+  --gray:#959595;
+  --white : #ffffff;
+  --light-black :#353535;
+  --black: #000000;
+  --light-green:#b0e4b4;
+  --dark-green:#3b533d;
+  --light-red:#ffacaa;
+}
+
 #content{
-    background: #f6f6f6!important;
+  background: var(--light-gray-10)!important;
 }
 
 #content .gap-text{
-    background-color: #B2DFDB!important;
-    padding: 15px 25px!important;
-    text-align: left!important;
-    line-height: 20px!important;
-    border-radius: 30px!important;
-    font-size: 20px!important;
-    font-weight: bold!important;
-    color: #585858!important;
-    font-family: monospace!important;
-    
+  background-color: var(--light-tifany)!important;
+  padding: 15px 25px!important;
+  text-align: left!important;
+  line-height: 20px!important;
+  border-radius: 30px!important;
+  font-size: 20px!important;
+  font-weight: bold!important;
+  color: var(--light-black)!important;
+  font-family: monospace!important; 
 }
 
 .card , .small-card{
-    
-    background: rgb(255, 205, 123)!important;
-    padding: 0!important;
-    margin: 0!important;
-    border: none!important;
-    margin: 10px auto!important;
-    display: block!important;
-    text-align: center!important;
-    width: calc(100% - 40%) !important;
-    padding: 10px!important;
-    font-weight: bold!important;
-    font-size: 17px!important;
-    border-radius: 30px!important;
-    box-shadow: 1px 1px 2px 0px #c1c1c1!important;
+  
+  background: var(--light-orange-10)!important;
+  padding: 0!important;
+  margin: 0!important;
+  border: none!important;
+  margin: 10px auto!important;
+  display: block!important;
+  text-align: center!important;
+  width: calc(100% - 40%) !important;
+  padding: 10px!important;
+  font-weight: bold!important;
+  font-size: 17px!important;
+  border-radius: 30px!important;
+  box-shadow: 1px 1px 2px 0px var(--light-gray-10)!important;
 }
 
 
 .input-field {
-    width: 100%!important;
-    display: block!important;
-    height: 2em!important;
-    border-radius: 30px!important;
-    padding-left: 15px!important;
+  width: 100%!important;
+  display: block!important;
+  height: 2em!important;
+  border-radius: 30px!important;
+  padding-left: 15px!important;
 }
 
 
 .input-field :active, .input-field :focus {
-    outline: none!important;
-    border: none!important;
+  outline: none!important;
+  border: none!important;
 }
 
 .form-control:focus{
-    border: 1px solid #dddddd!important;
-    outline: 0!important;
-    box-shadow: none !important;
+  border: 1px solid var(--light-gray)!important;
+  outline: 0!important;
+  box-shadow: none !important;
 }
 
-#checkSolutionBtn{
-    background: #b0e4b4!important;
-    color: #3b533d!important;
-    padding: 21px 23px!important;
-    width: 80px!important;
-    height: 80px!important;
-  -webkit-box-shadow: none!important;
-          box-shadow: none!important;
-    font-size: 30px!important;
-    border: 2px solid #3b533d!important;
-    margin: 5px 10px!important;
-}
-#checkSolutionBtn:hover{
-    background: #b0e4b4!important;
-    color: #3b533d!important;
-    padding: 21px 23px!important;
-    width: 80px!important;
-    height: 80px!important;
-  -webkit-box-shadow: none!important;
-          box-shadow: none!important;
-    font-size: 30px!important;
-    border: 2px solid #3b533d!important;
-    margin: 5px 10px!important;
-    opacity: 0.5!important;
-}
 
 .btn-danger,.btn-danger:hover,.btn-danger.active:focus,.btn-danger.active:active {
-    color: #fff!important;
-    background-color: #ffff!important;
-    border: 2px solid #ffacaa!important;
+  color: var(--white)!important;
+  background-color: var(--white)!important;
+  border: 2px solid var(--light-red)!important;
+}
+
+
+/* check solve button */
+#checkSolutionBtn{
+  background: var(--light-green)!important;
+  color: var(--dark-green)!important;
+  padding: 21px 23px!important;
+  width: 80px!important;
+  height: 80px!important;
+  -webkit-box-shadow: none!important;
+          box-shadow: none!important;
+  font-size: 30px!important;
+  border: 2px solid var(--dark-green)!important;
+  margin: 5px 10px!important;
+}
+
+#checkSolutionBtn:hover{
+  opacity: 0.7!important;
 }
 
 /* meseage */
 #AppClientTaskPanel{
-    border-radius: 8px !important;
-    background-color: #ffffff!important;
-    border-top: 9px solid rgb(255, 158, 0)!important;
-    border-left: 1px solid #dddd!important;
-    border-right: 1px solid #dddd!important;
-    border-bottom: 1px solid #dddd!important;
-    padding: 25px!important;
-    -webkit-box-shadow:none !important;
-            box-shadow:none !important;
-  }
-  #AppClientTaskPanel p{
-    margin: 0 0 15px !important;
-    color: #2f2f2f!important;
-  }
-  #AppClientTaskPanel div{
-    color: #4c4c4c!important;
-    text-align: justify!important;
-  }
-  #AppClientTaskPanel div button{
-    font-size: 120%!important;
-    width: 100%!important;
-    margin: 25px 0 0!important;
-    padding: 5px!important;
-    border: none!important;
-    color: #fff!important;
-    background: rgb(15, 108, 227);
-    border-radius: 20px!important;
-    -webkit-box-shadow: none !important;
-            box-shadow: none !important;
-  }
-  #AppClientTaskPanel div button:hover{
-    opacity: 0.5!important;       
-  }
+  border-radius: 8px !important;
+  background-color: var(--white)!important;
+  border-top: 9px solid var(--orange)!important;
+  border-left: 1px solid var(--light-gray)!important;
+  border-right: 1px solid var(--light-gray)!important;
+  border-bottom: 1px solid var(--light-gray)!important;
+  padding: 25px!important;
+  -webkit-box-shadow:none !important;
+  box-shadow:none !important;
+  -webkit-border-radius: 8px !important;
+  -moz-border-radius: 8px !important;
+  -ms-border-radius: 8px !important;
+  -o-border-radius: 8px !important;
+}
+
+#AppClientTaskPanel p{
+  margin: 0 0 15px !important;
+  color: var(--light-black)!important;
+}
+
+#AppClientTaskPanel div{
+  color: var(--light-black)!important;
+  text-align: justify!important;
+}
+
+#AppClientTaskPanel div button{
+  font-size: 120%!important;
+  width: 100%!important;
+  margin: 25px 0 0!important;
+  padding: 5px!important;
+  border: none!important;
+  color: var(--white)!important;
+  background: var(--blue);
+  border-radius: 20px!important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+#AppClientTaskPanel div button:hover{
+  opacity: 0.5!important;       
+}
+
+.example {
+    display: -ms-grid;
+    display: grid;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    background: -o-linear-gradient(top, var(--white),var(--black));
+    background: -webkit-gradient(linear, left top, left bottom, from(var(--white),var(--black)));
+    background: linear-gradient(to bottom, var(--white),var(--black));
+}

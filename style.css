@@ -18,6 +18,10 @@
   --red:#fd7a91;
 }
 
+body{
+    font-family: sans-serif !important;
+}
+
 #content{
   background: var(--light-gray-10)!important;
 }

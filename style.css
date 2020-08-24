@@ -57,6 +57,7 @@ body{
 
 
 .input-field {
+  background: var(--light-gray-10))!important;
   width: 100%!important;
   display: block!important;
   height: 2em!important;

@@ -27,7 +27,7 @@ body{
 }
 
 #content .gap-text{
-  background-color: var(--light-tifany)!important;
+  background-color: var(--white)!important;
   padding: 15px 25px!important;
   text-align: left!important;
   line-height: 20px!important;
@@ -35,6 +35,7 @@ body{
   font-size: 20px!important;
   font-weight: bold!important;
   color: var(--light-black)!important;
+  border:1px solid var(--light-gray)!important;
 }
 
 .card , .small-card{
@@ -77,7 +78,7 @@ body{
 
 
 .btn-danger,.btn-danger:hover,.btn-danger.active:focus,.btn-danger.active:active {
-  color: var(--white)!important;
+  color: var(--light-black)!important;
   background-color: var(--white)!important;
   border: 2px solid var(--light-red)!important;
 }

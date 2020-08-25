@@ -83,6 +83,11 @@ body{
   background-color: var(--white)!important;
   border: 2px solid var(--light-red)!important;
 }
+.btn-success {
+  color: var(--light-black)!important;
+  background-color: var(--white)!important;
+  border: 2px solid var(--light-green)!important;
+}
 
 
 /* check solve button */
